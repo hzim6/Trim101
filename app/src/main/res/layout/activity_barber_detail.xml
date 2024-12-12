@@ -1,0 +1,89 @@
+<!-- activity_barber_detail.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgdetails"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/transparent"
+        app:srcCompat="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/imageProfile"
+        android:layout_width="150dp"
+        android:layout_height="147dp"
+        android:elevation="70dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_image_background"
+        android:contentDescription="Profile Picture" />
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/sf_pro_display_bold"
+        android:text="Barber Name"
+        android:textColor="@color/apple_white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:elevation="30dp"
+        android:layout_marginTop="8dp"
+        app:srcCompat="@drawable/frosted_background" />
+
+    <TextView
+        android:id="@+id/textDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/sf_pro_display_regular"
+        android:text="Details"
+        android:textColor="@color/apple_white"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="8dp"
+        android:elevation="30dp"
+        app:srcCompat="@drawable/frosted_background" />
+
+    <TextView
+        android:id="@+id/textPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/sf_pro_display_regular"
+        android:text="Price"
+        android:textColor="@color/apple_white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buttonBookAppointment"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#A66FB5"
+        android:fontFamily="@font/sf_pro_display_bold"
+        android:paddingTop="6dp"
+        android:text="Book Appointment"
+        android:elevation="70dp"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+</LinearLayout>

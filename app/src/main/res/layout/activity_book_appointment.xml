@@ -1,0 +1,112 @@
+<!-- activity_book_appointment.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg7"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <!-- Date Picker for Appointment Date -->
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#00FFFFFF "
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="@font/sf_pro_display_regular"
+        android:text="Select Date"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <!-- Time Selection -->
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="341dp"
+        android:layout_height="390dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bgcalander2"
+        android:calendarTextColor="@color/black"
+        android:calendarViewShown="false"
+        android:elevation="20dp" />
+
+    <TextView
+        android:id="@+id/textTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/sf_pro_display_regular"
+        android:text="Select Time"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonSelectTime"
+        android:layout_width="341dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/light_gray"
+        android:elevation="20dp"
+        android:fontFamily="@font/sf_pro_display_regular"
+        android:text="Select Time"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <!-- Payment Type Selection -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/sf_pro_display_regular"
+        android:text="Payment Type"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/paymentTypeGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioCash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:text="Cash"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/radioOnlineTransfer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:text="Online Transfer"
+            android:textColor="#FFFFFF" />
+    </RadioGroup>
+
+    <!-- Confirm Appointment Button -->
+    <Button
+        android:id="@+id/buttonConfirmAppointment"
+        android:layout_width="341dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#A66FB5"
+        android:elevation="20dp"
+        android:fontFamily="@font/sf_pro_display_bold"
+        android:text="Confirm Appointment"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+</LinearLayout>

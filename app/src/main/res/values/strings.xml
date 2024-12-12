@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Trim101</string>
+    <string-array name="role_array">
+        <item>Customer</item>
+        <item>Barber</item>
+    </string-array>
+
+    <string name="title_profile">Profile</string>
+    <string name="title_home">Home</string>
+    <string name="title_appt">Appointment</string>
+    <string name="title_logout">Logout</string>
+
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+
+</resources>

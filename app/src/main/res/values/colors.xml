@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="softblack">#0e1111</color>
+    <color name="light_background">#F9F9F9</color>
+    <color name="icon_tint">#5A5A5A</color>
+    <color name="text_primary">#333333</color>
+    <color name="dark_text">#333333</color>
+    <color name="apple_button_blue">#007AFF</color>
+    <color name="apple_button_gray">#8E8E93</color>
+    <color name="apple_button_green">#34C759</color>
+    <color name="light_gray">#D1D1D6</color>
+    <color name="apple_white">#EDEDED</color>
+    <color name="transparent">#00FFFFFF</color>
+
+</resources>

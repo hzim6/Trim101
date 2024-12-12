@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "727914244154",
+    "project_id": "trim1011",
+    "storage_bucket": "trim1011.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727914244154:android:332fc878002bcc51dcad03",
+        "android_client_info": {
+          "package_name": "com.example.trim101"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkE3OqFo7g4SebUWK5svQrq4aoW6-BJJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

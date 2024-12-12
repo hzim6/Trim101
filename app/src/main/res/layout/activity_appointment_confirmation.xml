@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bgcalander">
+
+    <!-- Button initially hidden -->
+
+    <TextView
+        android:id="@+id/textConfirmation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="358dp"
+        android:layout_marginEnd="78dp"
+        android:text="Booking Appointment..."
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="181dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="182dp"
+        android:indeterminate="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textConfirmation" />
+
+    <!-- Checkmark Icon (initially hidden) -->
+
+    <ImageView
+        android:id="@+id/checkmarkIcon"
+        android:layout_width="49dp"
+        android:layout_height="47dp"
+        android:visibility="gone"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="422dp"
+        android:src="@drawable/ic_checkmark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textConfirmation" />
+
+    <Button
+        android:id="@+id/buttonReturnHome"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="331dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="43dp"
+        android:text="Return to Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar"
+        android:visibility="gone" /> <!-- Hidden initially -->
+</androidx.constraintlayout.widget.ConstraintLayout>
